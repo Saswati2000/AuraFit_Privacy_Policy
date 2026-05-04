@@ -54,5 +54,4 @@ AuraFit is not intended for children under the age of 13. We do not knowingly co
 We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the effective date.
 
 ## 8. Contact Us
-If you have any questions about this Privacy Policy, please contact us at:
-[Your Contact Email/GitHub Profile]
+If you have any questions about this Privacy Policy, please contact us at: [saswati.samanta.in@gmail.com]
