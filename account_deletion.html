@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuraFit - Account Deletion Request</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0f0f0f;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #1a1a1a;
+            padding: 40px;
+            border-radius: 24px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            max-width: 450px;
+            width: 90%;
+            text-align: center;
+            border: 1px solid #333;
+        }
+        h1 { color: #bb86fc; margin-bottom: 10px; }
+        p { color: #aaa; font-size: 14px; line-height: 1.6; }
+        .warning {
+            background-color: rgba(255, 82, 82, 0.1);
+            border-left: 4px solid #ff5252;
+            padding: 10px;
+            margin: 25px 0;
+            font-size: 13px;
+            color: #ff8a80;
+            text-align: left;
+        }
+        .btn {
+            display: inline-block;
+            width: 100%;
+            padding: 15px;
+            background-color: #ff5252;
+            color: white;
+            text-decoration: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s;
+            box-sizing: border-box;
+        }
+        .btn:hover { background-color: #d32f2f; }
+        .footer { margin-top: 30px; font-size: 12px; color: #555; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Delete Account</h1>
+    <p>We are sorry to see you go. Click the button below to send an account deletion request from your registered email address.</p>
+    
+    <div class="warning">
+        <strong>Warning:</strong> This action is permanent. Once your account is deleted, your workout history, nutrition logs, and PRO subscription status cannot be recovered.
+    </div>
+
+    <a href="mailto:anupam@troveto.com?subject=AuraFit%20Account%20Deletion%20Request&body=Please%20delete%20my%20AuraFit%20account%20associated%20with%20this%20email%20address.%0A%0AReason%20(Optional):" class="btn">
+        Send Deletion Request
+    </a>
+
+    <div class="footer">
+        AuraFit by Troveto. Your data will be deleted within 30 days of receiving your email request.
+    </div>
+</div>
+
+</body>
+</html>
